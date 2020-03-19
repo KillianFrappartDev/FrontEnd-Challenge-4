@@ -1,0 +1,23 @@
+/* GENERAL */
+
+body {
+    background-color: hsl(218, 28%, 13%);
+}
+
+/* COMMENT */
+
+.comment {
+    background-color: hsl(219, 30%, 18%);
+}
+
+/* EXTRA */
+
+.extra {
+    background-color: hsl(217, 28%, 15%);
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: hsl(216, 53%, 9%);
+}
