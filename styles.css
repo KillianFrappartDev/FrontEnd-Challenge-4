@@ -6,8 +6,22 @@ body {
 }
 
 .txt {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #FFF;
+}
+
+.hxt {
     font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
     line-height: 1.5;
+    color: #FFF;
+}
+
+.hxt-small {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: #FFF;
 }
 
 /* CONTAINER */
@@ -15,7 +29,7 @@ body {
 .container {
 }
 
-/* NAV */
+/* NAV */ 
 
 .nav {
     position: relative;
@@ -41,7 +55,7 @@ body {
     text-decoration: none;
     color: rgb(223, 213, 213);
     margin-left: 50px;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 /* HEADER */
@@ -75,24 +89,11 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    top: 550px;
+    top: 600px;
     color: #FFF;
 }
 
-.header-txt h1 {
-    font-size: 2.4rem;
-}
-
-.header-txt p {
-    font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .header-btn {
-    position: absolute;
-    top: 270px;
-    left: 50%;
-    transform: translateX(-50%);
     border: none;
     width: 250px;
     height: 60px;
@@ -100,19 +101,117 @@ body {
     color: #FFF;
     font-size: 1.2rem;
     border-radius: 30px;
+    margin-top: 20px;
 }
 
 .header-btn:hover {
     background-color: hsla(198, 60%, 50%, 0.432);
 }
 
+/* ADVANTAGES */
 
+.advantages {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    
+}
+
+.item {
+    display: inline-block;
+    width: 35%;
+    margin: 0 5% 5% 5%;
+    color: #FFF;
+}
+
+.advantages-txt {
+    padding: 0 10%;
+}
+
+/* SECTION */
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.section-img {
+    position: absolute;
+    left: 5%;
+}
+
+.section-txt {
+    position: absolute;
+    width: 40%;
+    top: 15%;
+    right: 5%;
+}
+
+.section-txt a {
+    color: hsl(176, 68%, 64%);
+}
 
 
 /* COMMENT */
 
 .comment {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    margin: 0 4% 100px 4%;
+}
+
+.comment-bg {
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+}
+
+.card {
     background-color: hsl(219, 30%, 18%);
+    display: inline-block;
+    margin: 0 20px;
+    width: 30%;
+    z-index: 1;
+}
+
+.comment-txt {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+.comment-txt p {
+    font-size: 1rem;
+}
+
+.people {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.people-img {
+    position: absolute;
+    width: 15%;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 20%;
+}
+
+.people-txt {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
+
+.people-txt h3 {
+    font-size: 1.5rem;
+}
+
+.people-txt p {
+    font-size: 1rem;
+    color: rgb(223, 213, 213)
 }
 
 /* EXTRA */
