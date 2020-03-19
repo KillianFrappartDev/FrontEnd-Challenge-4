@@ -158,8 +158,7 @@ body {
 .comment {
     position: relative;
     text-align: center;
-    height: 100%;
-    margin: 0 4% 100px 4%;
+    margin: 0 4% 0 4%;
 }
 
 .comment-bg {
@@ -169,40 +168,38 @@ body {
 }
 
 .card {
+    position: relative;
     background-color: hsl(219, 30%, 18%);
     display: inline-block;
     margin: 0 20px;
+    height: 300px;
     width: 30%;
     z-index: 1;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
 }
 
 .comment-txt {
-    padding: 10px 30px;
+    padding: 10px 50px;
     text-align: left;
 }
 
 .comment-txt p {
-    font-size: 1rem;
-}
-
-.people {
-    position: relative;
-    width: 100%;
-    height: 100px;
+    font-size: 1.3rem;
 }
 
 .people-img {
     position: absolute;
-    width: 15%;
+    width: 20%;
     border-radius: 50%;
-    left: 10%;
-    bottom: 20%;
+    left: 30px;
+    bottom: 20px;
 }
 
 .people-txt {
     position: absolute;
-    bottom: 10%;
-    left: 40%;
+    bottom: 30px;
+    left: 200px;
 }
 
 .people-txt h3 {
@@ -217,13 +214,71 @@ body {
 /* EXTRA */
 
 .extra {
+    position: relative;
+    top: 150px;
     background-color: hsl(217, 28%, 15%);
+    width: 70%;
+    height: 300px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 5% 0 5%;
+    z-index: 1;
+}
+
+.extra-txt h2 {
+}
+
+.extra-input {
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.extra-btn {
+    border: none;
+    width: 250px;
+    height: 50px;
+    background-color: hsl(198, 60%, 50%);
+    color: #FFF;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.extra-btn:hover {
+    background-color: hsla(198, 60%, 50%, 0.432);
 }
 
 /* FOOTER */
 
 .footer {
     background-color: hsl(216, 53%, 9%);
+    height: 600px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-img {
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    transform: translateX(-50%);
+}
+
+.contact-item {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.folder {
+    position: absolute;
+    top: 380px;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 /* PHONE */
