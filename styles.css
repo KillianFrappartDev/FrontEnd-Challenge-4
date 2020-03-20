@@ -3,6 +3,7 @@
 body {
     background-color: hsl(218, 28%, 13%);
     margin: 0;
+    padding: 0;
 }
 
 .txt {
@@ -24,12 +25,8 @@ body {
     color: #FFF;
 }
 
-/* CONTAINER */
 
-.container {
-}
-
-/* NAV */ 
+/* NAV */
 
 .nav {
     position: relative;
@@ -55,7 +52,7 @@ body {
     text-decoration: none;
     color: rgb(223, 213, 213);
     margin-left: 50px;
-    
+
 }
 
 /* HEADER */
@@ -114,7 +111,7 @@ body {
     width: 100%;
     height: 800px;
     text-align: center;
-    
+
 }
 
 .item {
@@ -175,7 +172,7 @@ body {
     height: 300px;
     width: 30%;
     z-index: 1;
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
@@ -185,7 +182,7 @@ body {
 }
 
 .comment-txt p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .people-img {
@@ -203,11 +200,11 @@ body {
 }
 
 .people-txt h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .people-txt p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgb(223, 213, 213)
 }
 
@@ -219,15 +216,12 @@ body {
     background-color: hsl(217, 28%, 15%);
     width: 70%;
     height: 300px;
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     border-radius: 10px;
     text-align: center;
     padding: 30px 5% 0 5%;
     z-index: 1;
-}
-
-.extra-txt h2 {
 }
 
 .extra-input {
@@ -271,7 +265,7 @@ body {
 
 .contact-item {
     display: inline-block;
-    margin: 0 100px;
+    margin: 0 5%;
 }
 
 .folder {
@@ -279,9 +273,19 @@ body {
     top: 380px;
     transform: translateX(-50%);
     left: 50%;
+    height: 100px;
+    width: 100%;
 }
 
-/* PHONE */
+/* TRANSITION */
 
+@media (max-width: 1500px) {
 
-/* DESKTOP */
+    .card {
+        width: 25%;
+    }
+
+    .comment-txt p {
+        font-size: 0.9rem;
+    }
+}
