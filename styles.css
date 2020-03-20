@@ -289,3 +289,35 @@ body {
         font-size: 0.9rem;
     }
 }
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    .header-img {
+        width: 60%;
+    }
+
+    .header-div {
+        top: 500px;
+    }
+
+    .section-img {
+        width: 40%;
+        top: 100px;
+    }
+
+    .comment-txt {
+        padding: 10px 20px;
+    }
+
+    .people-img {
+        width: 30%;
+        bottom: 40px;
+    }
+
+    .people-txt {
+        bottom: 20px;
+        left: 110px;
+    }
+}
